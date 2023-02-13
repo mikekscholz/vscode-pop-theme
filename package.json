@@ -1,0 +1,23 @@
+{
+    "name": "pop-theme",
+    "displayName": "POP! Theme",
+    "description": "A dark theme with bright colors that began as Monokai a decade ago.",
+    "version": "1.0.0",
+	  "publisher": "mikekscholz",
+	  "icon": "logo.png",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "POP! Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/POP!-theme.json"
+            }
+        ]
+    }
+}
